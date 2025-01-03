@@ -97,7 +97,7 @@ class AI_Assistant:
             "content": text
             }
         )
-        print(f"\nAI Strategist: {text}")
+        print(f"\nAI Event Planner: {text}")
 
         audio_stream = self.elevenlabs_client.generate(
             text=text,
